@@ -3,16 +3,18 @@
 
 <head>
     <title>
-        Anna Aitchison Personal Site
+        Anna Aitchison's Personal Site
     </title>
     <meta charset="utf-8">
+    <meta property="og:title" content="Anna Aitchison's Personal Site" />
+    <meta property="og:image" content="/images/Capture.JPG" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/personal-site-styles.css?dddd">
+    <link rel="stylesheet" href="css/personal-site-styles.css">
 </head>
 
 <body>
@@ -138,315 +140,60 @@
                 My Projects
             </h1>
             <h5 class="col-lg-6 pl-0 ml-0 pb-5">
-                My projects are fairly niche, and aren't as impressive as some, but their code quality is high, 
-                and most are useful in the real world, so I love them and hope you will too.
-            </h5>
-            <h5>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="faves-tab" data-toggle="tab" href="#faves" role="tab"
-                            aria-controls="faves" aria-selected="true">Favorite Projects</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="aws-tab" data-toggle="tab" href="#aws" role="tab"
-                            aria-controls="aws" aria-selected="false">AWS Applications</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="lib-tab" data-toggle="tab" href="#lib" role="tab" aria-controls="lib"
-                            aria-selected="false">Libraries</a>
-                    </li>
-                </ul>
+                I really love working on open source projects - there's nothing more satisfying to me than 
+                building something well from the ground up and putting it in the hands of real users even 
+                if it's only a small project.
             </h5>
         </div>
         <div class="card-columns">
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="faves" role="tabpanel" aria-labelledby="faves-tab">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/joshua-aragon-EaB4Ml7C7fE-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/yancy-min-842ofHC6MaI-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">DynamoDB User Store</h5>
+                    <p class="card-text"><small class="text-muted">C#, ASP .NET Core, DynamoDB, AWS</small></p>
+                    <p class="card-text">
+                        A C# ASP .NET Core library that allows developers to store users and roles in AWS DynamoDB when using ASP .NET Core 
+                        Identity. This is my favorite because it's the most likely to be used in production, it has full test coverage, and 
+                        is quite well written. Byproduct of me trying to learn C#
+                    </p>
+                    <div class="text-right">
+                        <a href="https://github.com/Ara225/ara225.DynamoDBUserStore" class="btn btn-outline-info">Code</a>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="aws" role="tabpanel" aria-labelledby="aws-tab">
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
+                <div class="card-body">
+                    <h5 class="card-title">PXE Server</h5>
+                    <p class="card-text"><small class="text-muted">JavaScript, Node.js</small></p>
+                    <p class="card-text">
+                        A Node.js module written in JavaScript that runs a PXE server - server for network booting computers. I like this 
+                        project because it sounds like it shouldn't work, but it very much does.
+                    </p>
+                    <div class="text-right">
+                        <a href="https://github.com/Ara225/node-js-pxe-server" class="btn btn-outline-info">Code</a>
                     </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-                <div class="tab-pane fade" id="lib" role="tabpanel" aria-labelledby="lib-tab">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
+                <div class="card-body">
+                    <h5 class="card-title">Regex Copy or Cut</h5>
+                    <p class="card-text"><small class="text-muted">JavaScript, Node.js</small></p>
+                    <p class="card-text">
+                        A JavaScript/Node.js VsCode Extension. The first piece of code I ever published, and also the one with the most downloads.
+                    </p>
+                    <div class="text-right">
+                        <a href="https://github.com/Ara225/regex-copy-or-cut" class="btn btn-outline-info">Code</a>
                     </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/nasa-Q1p7bh3SHj8-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/yancy-min-842ofHC6MaI-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/joshua-aragon-EaB4Ml7C7fE-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/joshua-aragon-EaB4Ml7C7fE-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <img src="images/yancy-min-842ofHC6MaI-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"><small class="text-muted">Ipsum, Lorem, Amet</small></p>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur orci
-                                neque, placerat at odio et, tincidunt blandit nisl. Vivamus pharetra auctor libero, ac
-                                luctus magna tempu</p>
-                            <div class="text-right">
-                                <a href="#" class="btn btn-outline-info">Read More</a>
-                            </div>
-                        </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Serverless Audiobook Maker</h5>
+                    <p class="card-text"><small class="text-muted">JavaScript, Node.js</small></p>
+                    <p class="card-text">
+                        A AWS serverless pipeline to create a speech-to-text audiobook from a text file uploaded to a S3 bucket. 
+                        Turned out to be useless as AWS Polly isn't as good as it's cracked up to be, but it was fun to make.
+                    </p>
+                    <div class="text-right">
+                        <a href="https://github.com/Ara225/serverless-audiobook-maker" class="btn btn-outline-info">Code</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="container">
-        <p>
-            <span>
-                Wordcloud & top code image by me, licensed under the Unlicense
-            </span>
-            <span>Laptop image by <a
-                    href="https://unsplash.com/@goshua13?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joshua
-                    Aragon</a> on <a
-                    href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>(Attribution
-                not required)</span><br>
-            <span>Git Commits image by <a
-                    href="https://unsplash.com/@yancymin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yancy
-                    Min</a> on <a
-                    href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>(Attribution
-                not required)</span><br>
-            <span>Planet image by <a
-                    href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NASA</a>
-                on <a
-                    href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>(Attribution
-                not required)</span><br>
-        </p>
-    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
